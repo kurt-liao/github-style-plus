@@ -1,5 +1,7 @@
 # github-style
 
+This is a fork from [github-style](https://github.com/MeiK2333/github-style)
+
 ## Init hugo site
 
 ```bash
@@ -68,6 +70,7 @@ summary: "The summary content"
 ### Approch 2: use `<!--more-->`
 
 Use `<!--more-->` to seperate content that will display in the posts page as abstraction and the rest of the content. This is different from summary, as summary will not appear in the post.
+
 ```
 ---
 title: "title"
@@ -98,8 +101,8 @@ add to `config.toml`
 enableGitalk = true
 
   [params.gitalk]
-    clientID = "Your client ID" 
-    clientSecret = "Your client secret" 
+    clientID = "Your client ID"
+    clientSecret = "Your client secret"
     repo = "repo"
     owner = "Your Github username"
     admin = "Your Github username"
@@ -132,11 +135,13 @@ display block $$ ... $$
 ![latex example](images/latex_example.png)
 
 ## Support MathJax
+
 you can add MathJax:true to frontmatter
 
 ```
 mathJax: true
 ```
+
 ## config.toml example
 
 ```toml
@@ -168,8 +173,8 @@ pygmentsUseClasses = true
   enableGitalk = true
 
   [params.gitalk]
-    clientID = "Your client ID" 
-    clientSecret = "Your client secret" 
+    clientID = "Your client ID"
+    clientSecret = "Your client secret"
     repo = "repo"
     owner = "MeiK2333"
     admin = "MeiK2333"
