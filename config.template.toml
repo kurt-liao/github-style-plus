@@ -1,0 +1,50 @@
+baseURL = "https://kurt-liao.github.io"
+languageCode = "zh-tw"
+title = "Kurt Liao"
+theme = "github-style"
+googleAnalytics = "UA-123456-789"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "Kurt"
+  description = "Embrace who you are, and go with the flow🔹"
+  github = "kurt-liao"
+  twitter = "cn91288"
+  linkedin = "kurt-liao-07360b17b"
+  email = "vermouth0226@gmail.com"
+  stackoverflow="10389571"
+  keywords = "blog, google analytics"
+  lastmod = true
+  userStatusEmoji = "😉"
+  favicon = "/images/avatar.png"
+  avatar = "/images/avatar.png"
+  location = "Taiwan"
+  enableGitalk = true
+  enableGithubFollowers = true
+  rss = true
+  enableLocalSearch = true
+    
+  [params.gitalk]
+    clientID = "Your client ID" # Your client ID
+    clientSecret = "Your client secret" # Your client secret
+    repo = "kurt-liao.github.io" # 你的部落格github位置Repository name，例如：xxxx.github.io
+    owner = "kurt-liao" # 你的GitHub ID
+    admin = "kurt-liao" # 你的GitHub ID
+    id = "location.pathname" # 文章頁面的連結就是ID
+    labels = "gitalk" # Github issue labels. If you used to use Gitment, you can change it
+    perPage = 15 # Pagination size, with maximum 100.
+    pagerDirection = "last" # Comment sorting direction, available values are 'last' and 'first'.
+    createIssueManually = true # 設置為true，如果是管理员登錄，會自動創建issue，如果是false，需要管理員手動添加第一个評論(issue)
+    distractionFreeMode = false # Enable hot key (cmd|ctrl + enter) submit comment.    
+    proxy = "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token" # 可以自行添加反向代理
+  [[params.links]]
+    title = "Link"
+    href = "https://github.com/kurt-liao"
+  [[params.links]]
+    title = "Link2"
+    href = "https://kurt-liao.github.io/"
+    icon = "https://kurt-liao.github.io//images/avatar.png"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
