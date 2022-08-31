@@ -1,10 +1,13 @@
 # github-style
 
-This is a fork from [github-style](https://github.com/MeiK2333/github-style)
-
+This is a fork from [github-style](https://github.com/MeiK2333/github-style).
 For more information about how to use, please follow the original repo.
 
-Here is only listing the additional features of this repo.
+> In this repo, there's only list of additional features.
+>
+> BTW, Documentation in progress🏃‍♂️
+
+## Demo
 
 First, take a look at my [personal blog](https://kurt-liao.github.io/), it's the completely demo for this theme.
 
