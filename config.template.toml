@@ -24,6 +24,7 @@ pygmentsUseClasses = true
   enableGithubFollowers = true
   rss = true
   enableLocalSearch = true
+  sponsorLink = "Your external sponsor link; For me, I use buymeacoffee link"
     
   [params.gitalk]
     clientID = "Your client ID" # Your client ID

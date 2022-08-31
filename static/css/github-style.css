@@ -190,3 +190,7 @@ body {
 .pinned-item-desc img {
   max-width: 100%;
 }
+
+.octicon-heart {
+  color: var(--color-sponsors-fg) !important;
+}
