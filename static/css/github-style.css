@@ -194,3 +194,19 @@ body {
 .octicon-heart {
   color: var(--color-sponsors-fg) !important;
 }
+
+.pagination-nav {
+  display: flex;
+  justify-content: space-between;
+  /* overflow: hidden;
+  text-overflow: ellipsis; */
+}
+
+.pagination-nav .pagination-button .pagination-link {
+  color: var(--color-text-primary);
+  text-decoration: underline;
+}
+
+.pagination-nav .pagination-button .pagination-link:hover {
+  color: var(--color-text-link);
+}
