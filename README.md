@@ -1,11 +1,11 @@
 # github-style
 
-This is a fork from [github-style](https://github.com/MeiK2333/github-style).
-For more information about how to use, please follow the original repo.
+This is a fork from [github-style](https://github.com/MeiK2333/github-style) with some additional features that I've made.
 
 > In this repo, there's only list of additional features.
->
-> BTW, Documentation in progress🏃‍♂️
+> For more information about basic usage, please follow the original repo.
+> 
+> BTW, Documentation is in progress🏃‍♂️
 
 ## Quick guide
 
