@@ -63,7 +63,7 @@ mv content/posts content/post
 
 ## New features✨
 
-### Pinned posts and recent posts show together
+### 📌 Pinned posts and recent posts show together
 
 > Since the original repo only display **Pinned** or **Recent** block. In other word, if you set `pin: true` in any of your posts, then there's only display **Pinned** block in your overview page.
 >
@@ -71,7 +71,7 @@ mv content/posts content/post
 
 ![2022-09-02_10-15](https://user-images.githubusercontent.com/32745146/188045141-12f720d0-bb7e-4383-8cca-675be98692d7.png)
 
-### Support reading time estimation
+### ⏳ Support reading time estimation
 
 > This feature evaluates the reading time of every post and shows next of the count of words.
 >
@@ -79,27 +79,27 @@ mv content/posts content/post
 
 ![2022-09-02_10-26](https://user-images.githubusercontent.com/32745146/188046079-2c001f05-7e83-420b-8fd3-f810c28284d0.png)
 
-### Display your real github followers stats
+### 🚶🚶🚶 Display your real github followers stats
 
 > To show real github followers count, please set `enableGithubFollowers = true` and your github account like `github = kurt-liao` in **config.toml** file.
 > You can copy the [template](/config.template.toml) in this repo.
 
 ![2022-09-02_10-37](https://user-images.githubusercontent.com/32745146/188046956-9af786fd-ccae-4c37-acc1-1a127ac0b9d1.png)
 
-### Add sponsor link button
+### ❤️ Add sponsor link button
 
 > Set your sponsor link in **config.toml** like `sponsorLink = "https://www.buymeacoffee.com/vermouth02D"` and the button will show on the page.
 > For me, I put the [buymeacoffee](https://www.buymeacoffee.com/) link.
 
 ![2022-09-02_10-39](https://user-images.githubusercontent.com/32745146/188047984-c40e8bb7-9af5-4601-b613-d636d5a81415.png)
 
-### Local search
+### 🔎 Local search
 
-### Show the specific day posts when click the specific block in yearly-contributions graph
+### 🤲 Show the specific day posts when click the specific block in yearly-contributions graph
 
-### Support custom css file
+### 💡 Support custom css file
 
-### Support paginator in post page
+### 📟 Support paginator in post page
 
 ## Config Example
 
