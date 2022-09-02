@@ -11,20 +11,20 @@ For more information about how to use, please follow the original repo.
 
 ### New features in this fork version:
 
-1. [Pinned posts and recent posts show together](README.md#pinned-posts-and-recent-posts-show-together)
-2. [Support reading time estimation](/README.md#support-reading-time-estimation)
-3. [Display your real github followers stats](/README.md#display-your-real-github-followers-stats)
-4. [Add sponsor link button](/README.md#add-sponsor-link-button)
+1. [Pinned posts and recent posts show together](README.md#-pinned-posts-and-recent-posts-show-together)
+2. [Support reading time estimation](/README.md#-support-reading-time-estimation)
+3. [Display your real github followers stats](/README.md#-display-your-real-github-followers-stats)
+4. [Add sponsor link button](/README.md#%EF%B8%8F-add-sponsor-link-button)
 
 > Documentation in progress
 >
-> 5. [Local search](/README.md#local-search)
+> 5. [Local search](/README.md#-local-search)
 >
-> 6. [Show the specific day posts when click the specific block in yearly-contributions graph](/README.md#show-the-specific-day-posts-when-click-the-specific-block-in-yearly-contributions-graph)
+> 6. [Show the specific day posts when click the specific block in yearly-contributions graph](/README.md#-show-the-specific-day-posts-when-click-the-specific-block-in-yearly-contributions-graph)
 >
-> 7. [Support custom css file](/README.md#support-custom-css-file)
+> 7. [Support custom css file](/README.md#-support-custom-css-file)
 >
-> 8. [Support paginator in post page](/README.md#support-paginator-in-post-page)
+> 8. [Support paginator in post page](/README.md#-support-paginator-in-post-page)
 
 ## Demo
 
