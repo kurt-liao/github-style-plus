@@ -10,24 +10,25 @@ For more information about how to use, please follow the original repo.
 ## Quick guide
 
 ### New features in this fork version:
+
 1. [Pinned posts and recent posts show together](README.md#pinned-posts-and-recent-posts-show-together)
 2. [Support reading time estimation](/README.md#support-reading-time-estimation)
 3. [Display your real github followers stats](/README.md#display-your-real-github-followers-stats)
 4. [Add sponsor link button](/README.md#add-sponsor-link-button)
 
 > Documentation in progress
-> 
+>
 > 5. [Local search](/README.md#local-search)
-> 
+>
 > 6. [Show the specific day posts when click the specific block in yearly-contributions graph](/README.md#show-the-specific-day-posts-when-click-the-specific-block-in-yearly-contributions-graph)
-> 
+>
 > 7. [Support custom css file](/README.md#support-custom-css-file)
-> 
+>
 > 8. [Support paginator in post page](/README.md#support-paginator-in-post-page)
 
 ## Demo
 
-First, take a look at my [personal blog](https://kurt-liao.github.io/), it's the completely demo for this theme.
+First, take a look at my [personal blog](https://blog.kurtstories.com/), it's the completely demo for this theme.
 
 ## Usage
 
@@ -81,7 +82,7 @@ mv content/posts content/post
 ### Display your real github followers stats
 
 > To show real github followers count, please set `enableGithubFollowers = true` and your github account like `github = kurt-liao` in **config.toml** file.
-You can copy the [template](/config.template.toml) in this repo.
+> You can copy the [template](/config.template.toml) in this repo.
 
 ![2022-09-02_10-37](https://user-images.githubusercontent.com/32745146/188046956-9af786fd-ccae-4c37-acc1-1a127ac0b9d1.png)
 
@@ -99,7 +100,6 @@ You can copy the [template](/config.template.toml) in this repo.
 ### Support custom css file
 
 ### Support paginator in post page
-
 
 ## Config Example
 
