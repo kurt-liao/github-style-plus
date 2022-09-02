@@ -7,6 +7,17 @@ For more information about how to use, please follow the original repo.
 >
 > BTW, Documentation in progress🏃‍♂️
 
+## Quick guide
+
+New features in this fork version:
+1. [Pinned posts and recent posts show together](README.md#pinned-posts-and-recent-posts-show-together)
+2. [Support reading time estimation](/README.md#support-reading-time-estimation)
+3. [Display your real github followers stats](/README.md#display-your-real-github-followers-stats)
+4. [Show the specific day posts when click the specific block in yearly-contributions graph](/README.md#show-the-specific-day-posts-when-click-the-specific-block-in-yearly-contributions-graph)
+5. [Add sponsor link button](/README.md#add-sponsor-link-button)
+6. [Support custom css file](/README.md#support-custom-css-file)
+7. [Support paginator in post page](/README.md#support-paginator-in-post-page)
+
 ## Demo
 
 First, take a look at my [personal blog](https://kurt-liao.github.io/), it's the completely demo for this theme.
@@ -42,6 +53,23 @@ cd <you-project-folder>
 mv content/posts content/post
 ```
 
-## config.toml example
+## New features✨
+
+### Pinned posts and recent posts show together
+
+### Support reading time estimation
+
+### Display your real github followers stats
+
+### Show the specific day posts when click the specific block in yearly-contributions graph
+
+### Add sponsor link button
+
+### Support custom css file
+
+### Support paginator in post page
+
+
+## Config Example
 
 @see [config.template.toml](/config.template.toml)
