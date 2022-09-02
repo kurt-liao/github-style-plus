@@ -21,22 +21,22 @@ pygmentsUseClasses = true
   avatar = "/images/avatar.png"
   location = "Taiwan"
   enableGitalk = true
-  enableGithubFollowers = true
+  enableGithubFollowers = true # Set to true to show your real github followers(params.github is required)
   rss = true
-  enableLocalSearch = true
-  sponsorLink = "Your external sponsor link; For me, I use buymeacoffee link"
+  enableLocalSearch = true # Set to true if you want to have keyword search locally(params.rss true is required)
+  sponsorLink = "Your external sponsor link; For me, I use buymeacoffee link" # Set the link if you want to have a sponsor button and let audience know the your donation link
     
   [params.gitalk]
     clientID = "Your client ID" # Your client ID
     clientSecret = "Your client secret" # Your client secret
-    repo = "kurt-liao.github.io" # 你的部落格github位置Repository name，例如：xxxx.github.io
+    repo = "kurt-liao.github.io" # 你要用來存放 issue 的 repo 名字(不一定要是你的 github page repo)
     owner = "kurt-liao" # 你的GitHub ID
     admin = "kurt-liao" # 你的GitHub ID
     id = "location.pathname" # 文章頁面的連結就是ID
     labels = "gitalk" # Github issue labels. If you used to use Gitment, you can change it
     perPage = 15 # Pagination size, with maximum 100.
     pagerDirection = "last" # Comment sorting direction, available values are 'last' and 'first'.
-    createIssueManually = true # 設置為true，如果是管理员登錄，會自動創建issue，如果是false，需要管理員手動添加第一个評論(issue)
+    createIssueManually = true # 設置為true，如果是管理員登錄，會自動創建issue，如果是false，需要管理員手動添加第一個評論(issue)
     distractionFreeMode = false # Enable hot key (cmd|ctrl + enter) submit comment.    
     proxy = "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token" # 可以自行添加反向代理
   [[params.links]]
