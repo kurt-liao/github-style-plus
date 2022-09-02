@@ -198,8 +198,17 @@ body {
 .pagination-nav {
   display: flex;
   justify-content: space-between;
-  /* overflow: hidden;
-  text-overflow: ellipsis; */
+}
+
+.pagination-nav .pagination-button {
+  display: flex;
+}
+
+.pagination-nav .pagination-button .pagination-link {
+  max-width: 150px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .pagination-nav .pagination-button .pagination-link {
