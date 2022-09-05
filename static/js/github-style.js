@@ -90,7 +90,6 @@ function switchYear(year) {
   const restOfContributions = ms.slice(2);
 
   let showMoreButton = document.getElementById("contribution-show-more-button");
-
   if (restOfContributions.length > 0) {
     if (!showMoreButton) {
       showMoreButton = document.createElement("button");
@@ -183,7 +182,7 @@ function showMore() {
 
   restOfContributions = restOfContributions.slice(1);
   if (restOfContributions.length <= 0) {
-    showMoreButton.style.display = "none";
+    showMoreButton.remove();
   }
   showMoreButton.setAttribute("data-rest-contributions", restOfContributions);
 }
@@ -414,6 +413,11 @@ function showThisDay(day) {
     posts
   );
   document.querySelector("#posts-activity").appendChild(node);
+
+  const showMoreButton = document.getElementById('contribution-show-more-button');
+  if (showMoreButton) {
+    showMoreButton.remove();
+  }  
 }
 
 function showGithubFollowers() {
