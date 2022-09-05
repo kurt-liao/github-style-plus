@@ -18,7 +18,7 @@ This is a fork from [github-style](https://github.com/MeiK2333/github-style) wit
 
 > Documentation in progress
 >
-> 5. [Local search](/README.md#-local-search)
+> 5. [Keyword search locally](/README.md#-keyword-search-locally)
 >
 > 6. [Show the specific day posts when click the specific block in yearly-contributions graph](/README.md#-show-the-specific-day-posts-when-click-the-specific-block-in-yearly-contributions-graph)
 >
@@ -93,7 +93,17 @@ mv content/posts content/post
 
 ![2022-09-02_10-39](https://user-images.githubusercontent.com/32745146/188047984-c40e8bb7-9af5-4601-b613-d636d5a81415.png)
 
-### 🔎 Local search
+### 🔎 Keyword search locally
+
+> Searching in personal site might be important with a growing number of articles, so I've done it.
+>
+> This feature uses hugo rss that generate `index.xml` feed file, so make sure you have set `params.rss = true`
+>
+> Though somebody might not want to use this feature, there's another parameter you need to set to true to enable: `params.enableLocalSearch = true`
+
+![](https://i.imgur.com/vKrgR1E.png)
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/32745146/187828206-829830a4-3fac-40e3-8bcb-399a98b01680.gif)
 
 ### 🤲 Show the specific day posts when click the specific block in yearly-contributions graph
 
