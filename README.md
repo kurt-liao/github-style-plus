@@ -15,10 +15,9 @@ This is a fork from [github-style](https://github.com/MeiK2333/github-style) wit
 2. [Support reading time estimation](/README.md#-support-reading-time-estimation)
 3. [Display your real github followers stats](/README.md#-display-your-real-github-followers-stats)
 4. [Add sponsor link button](/README.md#%EF%B8%8F-add-sponsor-link-button)
+5. [Keyword search locally](/README.md#-keyword-search-locally)
 
 > Documentation in progress
->
-> 5. [Keyword search locally](/README.md#-keyword-search-locally)
 >
 > 6. [Show the specific day posts when click the specific block in yearly-contributions graph](/README.md#-show-the-specific-day-posts-when-click-the-specific-block-in-yearly-contributions-graph)
 >
