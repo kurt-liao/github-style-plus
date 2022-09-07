@@ -88,7 +88,8 @@ mv content/posts content/post
 ### ❤️ Add sponsor link button
 
 > Set your sponsor link in **config.toml** like `sponsorLink = "https://www.buymeacoffee.com/vermouth02D"` and the button will show on the page.
-> For me, I put the [buymeacoffee](https://www.buymeacoffee.com/) link.
+>
+> For me, I put the [buymeacoffee](https://www.buymeacoffee.com/vermouth02D) link.
 
 ![2022-09-02_10-39](https://user-images.githubusercontent.com/32745146/188047984-c40e8bb7-9af5-4601-b613-d636d5a81415.png)
 
