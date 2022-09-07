@@ -1,4 +1,4 @@
-baseURL = "https://kurt-liao.github.io"
+baseURL = "https://blog.kurtstories.com"
 languageCode = "zh-tw"
 title = "Kurt Liao"
 theme = "github-style"
@@ -43,8 +43,8 @@ pygmentsUseClasses = true
     href = "https://github.com/kurt-liao"
   [[params.links]]
     title = "Link2"
-    href = "https://kurt-liao.github.io/"
-    icon = "https://kurt-liao.github.io//images/avatar.png"
+    href = "https://github.com/kurt-liao/github-style-plus"
+    icon = "https://blog.kurtstories.com/images/avatar.png"
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
