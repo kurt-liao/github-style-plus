@@ -30,7 +30,6 @@ const now = new Date();
 let contributions;
 
 (() => {
-  reducePostIfMobile();
   setRelativeTime();
   showGithubFollowers();
   const dom = document.querySelector("#contributions");
@@ -52,36 +51,6 @@ let contributions;
   yearList();
   switchYear(year.toString());
 })();
-
-function isMobile() {
-  return window.matchMedia("(pointer:coarse)").matches;
-}
-
-function reducePostIfMobile() {
-  const _isMobile = isMobile();
-  if (_isMobile) {
-    const pinned = document.querySelector('.js-pinned-items-reorder-list');
-    if (pinned) {
-      const list = pinned.querySelectorAll('.flex-content-stretch');
-      if (list.length > 2) {
-        for (let i = list.length - 1; i >= 2; i--) {
-          pinned.removeChild(list[i]);
-        }
-      }
-    }
-
-    const recent = document.querySelector('.js-recent-items-reorder-list');
-    if (recent) {
-      const list = recent.querySelectorAll('.flex-content-stretch');
-      if (list.length > 2) {
-        for (let i = list.length - 1; i >= 2; i--) {
-          recent.removeChild(list[i]);
-        }
-      }
-    }
-  }
-}
-
 
 function switchYear(year) {
   const date = new Date(Number(year), 0, 1, 0, 0, 0, 0);
