@@ -24,6 +24,8 @@ pygmentsUseClasses = true
   rss = true
   enableLocalSearch = true # Set to true if you want to have keyword search locally(params.rss true is required)
   sponsorLink = "Your external sponsor link; For me, I use buymeacoffee link" # Set the link if you want to have a sponsor button and let audience know the your donation link
+  customStyleFile = "your css file name"
+  gtmId = "your gtm id"
     
   [params.gitalk]
     clientID = "Your client ID" # Your client ID

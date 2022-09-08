@@ -1,3 +1,16 @@
+{{ if eq (getenv "HUGO_ENV") "production"}}{{ with .Site.Params.GtmId }}
+<!-- Google Tag Manager (noscript) -->
+<noscript
+  ><iframe
+    src="https://www.googletagmanager.com/ns.html?id=GTM-PZQJVJ9"
+    height="0"
+    width="0"
+    style="display: none; visibility: hidden"
+  ></iframe
+></noscript>
+<!-- End Google Tag Manager (noscript) -->
+{{ end }}{{ end }}
+
 <style>
   .height-limitation {
     max-height: 300px;
