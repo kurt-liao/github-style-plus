@@ -135,6 +135,13 @@
           </a>
           {{ end }}
 
+          {{ $custom_orgs := .Site.Params.customOrgs }}
+          {{ range $org_index, $org := $custom_orgs }}
+            <a style="margin: 0 10px 10px 0;" target="_blank" href="{{ $org.link }}">
+              <img alt="{{ $org.name }}" width="32" height="32" src="{{ $org.img }}" class="avatar">
+            </a>
+          {{ end }}
+
           {{ if .Site.Params.twitter}}
           <a style="margin: 0 10px 10px 0;" target="_blank" href="https://twitter.com/{{ .Site.Params.twitter }}">
             <img alt="@twitter" width="32" height="32" src="{{ "images/twitter.png" | absURL }}" class="avatar">
