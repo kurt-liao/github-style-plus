@@ -5,14 +5,49 @@
     type="application/javascript"
     src='{{ "js/theme-mode.js" | absURL }}'
   ></script>
-  <link rel="stylesheet" href='{{ "css/frameworks.min.css" | absURL }}' />
-  <link rel="stylesheet" href='{{ "css/github.min.css" | absURL }}' />
-  <link rel="stylesheet" href='{{ "css/github-style.css" | absURL }}' />
-  <link rel="stylesheet" href='{{ "css/light.css" | absURL }}' />
-  <link rel="stylesheet" href='{{ "css/dark.css" | absURL }}' />
-  <link rel="stylesheet" href='{{ "css/syntax.css" | absURL }}' />
+  <link
+    rel="preload"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+    href='{{ "css/frameworks.min.css" | absURL }}'
+  />
+  <link
+    rel="preload"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+    href='{{ "css/github.min.css" | absURL }}'
+  />
+  <link
+    rel="preload"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+    href='{{ "css/github-style.css" | absURL }}'
+  />
+  <link
+    rel="preload"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+    href='{{ "css/light.css" | absURL }}'
+  />
+  <link
+    rel="preload"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+    href='{{ "css/dark.css" | absURL }}'
+  />
+  <link
+    rel="preload"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+    href='{{ "css/syntax.css" | absURL }}'
+  />
   {{ with .Site.Params.CustomStyleFile }}
-  <link rel="stylesheet" href="/{{ . }}" />
+  <link
+    rel="preload"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+    href="/{{ . }}"
+  />
   {{ end }}
   <title>
     {{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end
