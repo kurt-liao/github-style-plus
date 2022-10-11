@@ -4,8 +4,7 @@
 <script src='{{ "js/gitalk.min.js" | absURL }}'></script>
 <script>
   const gitalk = new Gitalk({
-    clientID: '{{ .Site.Params.Gitalk.clientID }}',
-    clientSecret: '{{ .Site.Params.Gitalk.clientSecret }}',
+    accessToken: '{{ .Site.Params.Gitalk.accessToken }}',
     repo: '{{ .Site.Params.Gitalk.repo }}',
     owner: '{{ .Site.Params.Gitalk.owner }}',
     admin: ['{{ .Site.Params.Gitalk.owner }}'],
