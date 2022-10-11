@@ -28,8 +28,7 @@ pygmentsUseClasses = true
   gtmId = "your gtm id"
     
   [params.gitalk]
-    clientID = "Your client ID" # Your client ID
-    clientSecret = "Your client secret" # Your client secret
+    accessToken = "Your Github access token" # Generate token from github settings  
     repo = "kurt-liao.github.io" # 你要用來存放 issue 的 repo 名字(不一定要是你的 github page repo)
     owner = "kurt-liao" # 你的GitHub ID
     admin = "kurt-liao" # 你的GitHub ID
