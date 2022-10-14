@@ -16,14 +16,15 @@ This is a fork from [github-style](https://github.com/MeiK2333/github-style) wit
 3. [Display your real github followers stats](/README.md#-display-your-real-github-followers-stats)
 4. [Add sponsor link button](/README.md#%EF%B8%8F-add-sponsor-link-button)
 5. [Keyword search locally](/README.md#-keyword-search-locally)
+6. [Clickable day contributions](/README.md#-clickable-day-contributions)
 
 > Documentation in progress
 >
-> 6. [Show the specific day posts when click the specific block in yearly-contributions graph](/README.md#-show-the-specific-day-posts-when-click-the-specific-block-in-yearly-contributions-graph)
+> 7. [Show the specific day posts when click the specific block in yearly-contributions graph](/README.md#-show-the-specific-day-posts-when-click-the-specific-block-in-yearly-contributions-graph)
 >
-> 7. [Support custom css file](/README.md#-support-custom-css-file)
+> 8. [Support custom css file](/README.md#-support-custom-css-file)
 >
-> 8. [Support paginator in post page](/README.md#-support-paginator-in-post-page)
+> 9. [Support paginator in post page](/README.md#-support-paginator-in-post-page)
 
 ## Demo
 
@@ -104,6 +105,12 @@ mv content/posts content/post
 ![](https://i.imgur.com/vKrgR1E.png)
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/32745146/187828206-829830a4-3fac-40e3-8bcb-399a98b01680.gif)
+
+### Clickable day contributions
+
+Make yearly-contributions graph clickable like github does. When you click on specific day, it will show you the posts added that day.
+
+![Clickable day contributions](https://i.imgur.com/pSJi4KB.gif)
 
 ### 🤲 Show the specific day posts when click the specific block in yearly-contributions graph
 
