@@ -32,6 +32,12 @@ body {
   margin-right: 16px;
 }
 
+@media (min-width: 1280px) {
+  .Theme-switcher {
+    display: none;
+  }
+}
+
 .octicon {
   fill: currentColor;
 }
