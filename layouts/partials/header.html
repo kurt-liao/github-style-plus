@@ -45,7 +45,7 @@
       class="Header-item mobile-none"
       style="margin-top: -4px; margin-bottom: -4px"
     >
-      <a class="Header-link" href="{{ .Site.BaseURL }}">
+      <a class="Header-link" href="{{ .Site.BaseURL }}" aria-label="Home">
         <svg
           class="octicon"
           height="32"
@@ -153,6 +153,7 @@
     </div>
     <div class="Theme-switcher Header-item" style="margin-right: 0">
       <span
+        role="button"
         class="Header-link no-select"
         onclick="switchTheme()"
         style="cursor: pointer"

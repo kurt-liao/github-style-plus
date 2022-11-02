@@ -169,11 +169,11 @@ function showMore() {
       }
     }
   }
-  
+
   posts.sort((a, b) => {
     return b - a;
   });
-  
+
   const postActivityDom = document.querySelector("#posts-activity");
   const node = document.createElement("div");
   const array = restOfContributions[0].split("-");
@@ -277,7 +277,7 @@ function yearList() {
   for (let i = 0; i < years.length; i++) {
     const year = years[i];
     const node = document.createElement("li");
-    node.innerHTML = `<li><a class="js-year-link filter-item px-3 mb-2 py-2" onclick="switchYear('${year}')">${year}</a></li>`;
+    node.innerHTML = `<a role="button" class="js-year-link filter-item px-3 mb-2 py-2" onclick="switchYear('${year}')" aria-label="Switch year">${year}</a>`;
     document.querySelector("#year-list").appendChild(node);
   }
 }
@@ -414,10 +414,12 @@ function showThisDay(day) {
   );
   document.querySelector("#posts-activity").appendChild(node);
 
-  const showMoreButton = document.getElementById('contribution-show-more-button');
+  const showMoreButton = document.getElementById(
+    "contribution-show-more-button"
+  );
   if (showMoreButton) {
     showMoreButton.remove();
-  }  
+  }
 }
 
 function showGithubFollowers() {
