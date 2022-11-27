@@ -9,18 +9,18 @@ This is a fork from [github-style](https://github.com/MeiK2333/github-style) wit
 
 ### New features in this fork version:
 
-1. [Pinned posts and recent posts show together](README.md#pinned-posts-and-recent-posts-show-together)
-2. [Support reading time estimation](/README.md#support-reading-time-estimation)
-3. [Display your real github followers stats](/README.md#display-your-real-github-followers-stats)
-4. [Add sponsor link button](/README.md#add-sponsor-link-button)
-5. [Keyword search locally](/README.md#keyword-search-locally)
-6. [Clickable day contributions](/README.md#clickable-day-contributions)
-7. [Support custom css file](/README.md#support-custom-css-file)
-8. [Support previous/next post](/README.md#support-previous/next-post)
-9. [Show more button](/README.md#show-more-button)
-10. [Update old Google Analytics to GA4](/README.md#update-old-google-analytics-to-ga4)
-11. [Support GTM Script](/README.md#support-gtm-script)
-12. [Custom organizations block](/README.md#custom-organizations-block)
+1. [Pinned posts and recent posts show together](#pinned-posts-and-recent-posts-show-together)
+2. [Support reading time estimation](#support-reading-time-estimation)
+3. [Display your real github followers stats](#display-your-real-github-followers-stats)
+4. [Add sponsor link button](#add-sponsor-link-button)
+5. [Keyword search locally](#keyword-search-locally)
+6. [Clickable day contributions](#clickable-day-contributions)
+7. [Support custom css file](#support-custom-css-file)
+8. [Support previous/next post](#support-previous/next-post)
+9. [Show more button](#show-more-button)
+10. [Update old Google Analytics to GA4](#update-old-google-analytics-to-ga4)
+11. [Support GTM Script](#support-gtm-script)
+12. [Custom organizations block](#custom-organizations-block)
 
 ## Demo
 
