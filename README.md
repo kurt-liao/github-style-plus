@@ -24,7 +24,7 @@ This is a fork from [github-style](https://github.com/MeiK2333/github-style) wit
 
 ## Demo
 
-First, take a look at my [blog.kurtstories.com](https://blog.kurtstories.com/), it's the completely demo for this theme.
+First, take a look at my [blog](https://blog.kurtstories.com/), it's the completely demo for this theme.
 
 ## Usage
 
