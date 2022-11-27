@@ -16,7 +16,7 @@ This is a fork from [github-style](https://github.com/MeiK2333/github-style) wit
 5. [Keyword search locally](#keyword-search-locally)
 6. [Clickable day contributions](#clickable-day-contributions)
 7. [Support custom css file](#support-custom-css-file)
-8. [Support previous/next post](#support-previous/next-post)
+8. [Support previous and next post](#support-previous-and-next-post)
 9. [Show more button](#show-more-button)
 10. [Update old Google Analytics to GA4](#update-old-google-analytics-to-ga4)
 11. [Support GTM Script](#support-gtm-script)
@@ -124,7 +124,7 @@ Then, set file path in *config.toml* file.
 ![](https://i.imgur.com/tZHHcgL.jpg)
 
 ---
-### Support previous/next post
+### Support previous and next post
 
 ![](https://i.imgur.com/RbYKDnS.jpg)
 
