@@ -77,10 +77,13 @@ This feature evaluates the reading time of every post and shows the count of wor
 
 ### Display your real github followers stats
 
-To show real github followers count, please set `enableGithubFollowers = true` and your github account like `github = kurt-liao` in **config.toml** file.
-> You can copy the [template](/config.template.toml) in this repo.
+To show real github followers count, please set `enableGithubFollowers = true` and your github account like `github = kurt-liao` in *config.toml* file.
 
-![2022-09-02_10-37](https://user-images.githubusercontent.com/32745146/188046956-9af786fd-ccae-4c37-acc1-1a127ac0b9d1.png)
+![](https://i.imgur.com/LkBFrVF.jpg)
+
+
+![](https://i.imgur.com/htrKTFN.jpg)
+
 ---
 
 ### Add sponsor link button
@@ -98,7 +101,8 @@ Searching in personal site might be important with a growing number of articles.
 This feature uses hugo rss that generate `index.xml` feed file, so make sure you have set `params.rss = true`
 Since somebody might not want to use this feature, there's another parameter you need to set to true to enable: `params.enableLocalSearch = true`
 
-![](https://i.imgur.com/vKrgR1E.png)
+![](https://i.imgur.com/9k70xpQ.jpg)
+
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/32745146/187828206-829830a4-3fac-40e3-8bcb-399a98b01680.gif)
 ---
