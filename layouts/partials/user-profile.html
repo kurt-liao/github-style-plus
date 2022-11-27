@@ -135,13 +135,6 @@
           </a>
           {{ end }}
 
-          {{ $custom_orgs := .Site.Params.customOrgs }}
-          {{ range $org_index, $org := $custom_orgs }}
-            <a style="margin: 0 10px 10px 0;" target="_blank" href="{{ $org.link }}">
-              <img alt="{{ $org.name }}" width="32" height="32" src="{{ $org.img | absURL }}" class="avatar">
-            </a>
-          {{ end }}
-
           {{ if .Site.Params.twitter}}
           <a style="margin: 0 10px 10px 0;" target="_blank" href="https://twitter.com/{{ .Site.Params.twitter }}">
             <img alt="@twitter" width="32" height="32" src="{{ "images/twitter.png" | absURL }}" class="avatar">
@@ -176,6 +169,13 @@
           <a style="margin: 0 10px 10px 0;" target="_blank" href="https://stackoverflow.com/u/{{ .Site.Params.stackoverflow }}">
             <img alt="@stackoverflow" width="32" height="32" src="{{ "images/stackoverflow.png" | absURL }}" class="avatar">
           </a>
+          {{ end }}
+
+          {{ $custom_orgs := .Site.Params.customOrgs }}
+          {{ range $org_index, $org := $custom_orgs }}
+            <a style="margin: 0 10px 10px 0;" target="_blank" href="{{ $org.link }}">
+              <img alt="{{ $org.name }}" width="32" height="32" src="{{ $org.img | absURL }}" class="avatar">
+            </a>
           {{ end }}
 
           {{ if .Site.Params.links }}
