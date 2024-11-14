@@ -50,8 +50,8 @@
         </div>
       </main>
     </div>
-    {{ partial "footer.html" . }} {{ template
-    "_internal/google_analytics_async.html" . }} {{ if and
+    {{ partial "footer.html" . }} {{ if eq (getenv "HUGO_ENV") "production"}} {{
+    template "_internal/google_analytics.html" . }} {{ end }} {{ if and
     .Site.Params.EnableLocalSearch .Site.Params.Rss }}
     <script type="text/javascript">
       const host = window.location.host;

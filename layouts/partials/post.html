@@ -94,14 +94,14 @@
 
       <div class="pagination-nav">
         <div class="pagination-button next-post">
-          {{ if .NextPage }}
-          <div>«&nbsp;</div><a class="pagination-link link-reverse" href="{{ .NextPage.Permalink }}"> {{ .NextPage.Title | truncate 50 "..." }}</a>
+          {{ if .Next }}
+          <div>«&nbsp;</div><a class="pagination-link link-reverse" href="{{ .Next.Permalink }}"> {{ .Next.Title | truncate 50 "..." }}</a>
           {{ end }}
         </div>
         
         <div class="pagination-button previous-post">
-          {{ if .PrevPage }}
-          <a class="pagination-link link-reverse" href="{{ .PrevPage.Permalink }}">{{ .PrevPage.Title | truncate 50 "..."}}&nbsp;</a><div> »</div>
+          {{ if .Prev }}
+          <a class="pagination-link link-reverse" href="{{ .Prev.Permalink }}">{{ .Prev.Title | truncate 50 "..."}}&nbsp;</a><div> »</div>
           {{ end }}
         </div>
       </div>
